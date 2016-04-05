@@ -1,8 +1,8 @@
 /*
- * cyberphone.c
- * Version 0.1
+ * Version 1.0
  *
  * Copyright (c) 2008 Richard C Smith (richard at dormouse dot org dot uk)
+ * Copyright (c) 2016 James Guthrie (jamesjguthrie at gmail dot com)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -23,7 +23,7 @@
  * interface of the PDT Cyberphone K
  *
  * Build (as a regular user) with something like:
- * gcc -o cyberphone -Wall -lusb cyberphone.c
+ * gcc -o phone -Wall -lusb phone.c
  *
  * Depending on how libusb and udev are configured on your machine, you may 
  * need to be root to run this program.
